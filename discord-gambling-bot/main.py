@@ -45,7 +45,7 @@ async def on_message(message):
     
     gamblers = [609371127566827521, 949009367070560276]
 
-    if message.channel.id == 1215001001350664276:
+    if message.channel.id == 1108789026992959610:
         if id in gamblers:
             if random.random() < 0.3:
                 await message.reply(random.choice(motivation))
